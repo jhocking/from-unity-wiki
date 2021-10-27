@@ -1,19 +1,16 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEditor;
 using UnityEditor.SceneManagement;
 
-/// <summary>
-/// Scene auto loader.
-/// </summary>
-/// <description>
 /// This class adds a File > Scene Autoload menu containing options to select
 /// a "master scene" enable it to be auto-loaded when the user presses play
 /// in the editor. When enabled, the selected scene will be loaded on play,
 /// then the original scene will be reloaded on stop.
 ///
+/// To install, create a folder called Editor and put this script in there.
+///
 /// Based on an idea on this thread:
 /// http://forum.unity3d.com/threads/157502-Executing-first-scene-in-build-settings-when-pressing-play-button-in-editor
-/// </description>
 [InitializeOnLoad]
 static class SceneAutoLoader {
 	// Static constructor binds a playmode-changed callback.
