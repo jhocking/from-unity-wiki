@@ -1,5 +1,5 @@
 # from-unity-wiki
-Rehosted scripts from the defunct (or maybe just down temporarily?) Unity community wiki. Links for reference:
+Rehosted scripts from the defunct Unity community wiki. Links for reference:
 
 <https://web.archive.org/web/20200623113501/http://wiki.unity3d.com/index.php/CSharpMessenger_Extended>
 
